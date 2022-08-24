@@ -1,3 +1,3 @@
 # abelhuda
-Gerente : João Pedro Camargo Borsoi
-Desenvolvedor : Pedro 
+Gerente : João Pedro Camargo Borsoi.
+Desenvolver : Pedro Ferreira, Atividade Algoritmo de Soma em VisuAlg.
