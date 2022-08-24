@@ -1,4 +1,4 @@
-Algoritmo "soma_e_media"
+Algoritmo "soma_e_media_e_subtração"
 // Disciplina   : [Linguagem e Lógica de Programação]
 // Professor   : Edson Shinki Kaneshima
 // Descrição   : Aqui você descreve o que o programa faz! (função)
@@ -6,8 +6,7 @@ Algoritmo "soma_e_media"
 // Data atual  : 24/08/2022
 Var
    // Seção de Declarações das variáveis
-   numero1, numero2, resultado : real
-   resposta : caractere
+   numero1, numero2, resultado, resposta : real
 
 Inicio
    // Seção de Comandos, procedimento, funções, operadores, etc...
@@ -25,7 +24,19 @@ Inicio
    leia (resposta)
 
    se (resposta = 1) entao
-      escreva ("sua média é :", resultado / 2 )
+      escreval ("sua média é:", resultado / 2 )
+   senao
+   fimse
+   
+   resposta <- 0
+
+   escreval ("gostaria de fazer a subtração dos numeros ?")
+   escreval ("digite 1 para sim")
+   escreval ("digite 2 para não")
+   leia (resposta)
+   
+   se (resposta = 1) entao
+      escreva ("o resultado da subtração é:", numero1 - numero2)
    senao
    fimse
 
